@@ -1,0 +1,26 @@
+/** @format */
+
+@import url("http://fonts.cdnfonts.com/css/clash-display");
+
+body {
+  margin: 0;
+  font-family: "Clash Display", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+}
+
+code {
+  font-family: "Clash Display", sans-serif;
+  scroll-behavior: smooth;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Clash Display", sans-serif;
+  background: #fbfcff;
+  scroll-behavior: smooth;
+}

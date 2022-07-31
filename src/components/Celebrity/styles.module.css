@@ -1,0 +1,13 @@
+/** @format */
+
+.celebrity {
+  background: #dfe8ff;
+  padding: 96px 0px;
+}
+.celebrity > h6 {
+  margin: 0;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 59px;
+  color: #00227f;
+}

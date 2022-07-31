@@ -1,0 +1,49 @@
+/** @format */
+
+.download_app {
+  margin-bottom: 112px;
+}
+.download_app > h6 {
+  margin: 0;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 59px;
+  color: #00227f;
+  margin-bottom: 40px;
+}
+.download_app > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+.download_app > div > img {
+  transition: 0.25s all;
+  cursor: pointer;
+  width: 180px;
+  height: 52px;
+}
+.download_app > div > img:hover {
+  opacity: 0.8;
+  transform: translateY(-2px);
+}
+.download_app > button {
+  background: linear-gradient(180deg, rgba(172, 0, 253, 0.85) 0%, #9100d5 100%);
+  border-radius: 16px;
+  padding: 16px 54px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #fbfcff;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  transition: 0.25s all;
+  width: 369px;
+  margin-bottom: 52px;
+}
+.download_app > button:hover {
+  opacity: 0.8;
+  transform: translateY(-2px);
+}

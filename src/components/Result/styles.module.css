@@ -1,0 +1,31 @@
+/** @format */
+
+.result {
+  margin-bottom: 112px;
+}
+.result > h6 {
+  margin: 0;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 59px;
+  color: #00227f;
+  margin-bottom: 32px;
+}
+.result > img {
+  max-width: 916px;
+  margin-bottom: 52px;
+}
+.result > div {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 21px;
+}
+.result > div > p {
+  margin: 0;
+  max-width: 480px;
+  font-size: 18px;
+  line-height: 36px;
+  color: #000920;
+  text-align: left;
+}
