@@ -3,11 +3,51 @@
 .celebrity {
   background: #dfe8ff;
   padding: 96px 0px;
+  overflow: hidden;
+  width: 100%;
 }
 .celebrity > h6 {
   margin: 0;
   font-weight: 700;
   font-size: 48px;
   line-height: 59px;
+  color: #00227f;
+}
+.sliders {
+  margin-top: 38px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.slider_item > .inner {
+  padding: 0 12px;
+}
+.slider_item > .inner > div {
+  background: white;
+  flex: 1;
+  border-radius: 19.7678px;
+  padding: 24px;
+}
+.slider_item > .inner > div > p {
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 144.02%;
+  display: flex;
+  align-items: center;
+  color: #00227f;
+  margin: 0;
+  margin-bottom: 12px;
+}
+.slider_item > .inner > div > img {
+  width: 100%;
+  margin-bottom: 12px;
+}
+.slider_item > .inner > div > h6 {
+  margin: 0;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  display: flex;
+  align-items: center;
   color: #00227f;
 }

@@ -24,3 +24,13 @@ body {
   background: #fbfcff;
   scroll-behavior: smooth;
 }
+.slick-prev:before,
+.slick-next:before {
+  font-family: "slick";
+  font-size: 63px;
+  line-height: 1;
+  opacity: 0.75;
+  color: white;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
