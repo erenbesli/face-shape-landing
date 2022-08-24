@@ -23,7 +23,7 @@ const Celebrity = ({ celebrityRef }) => {
     className: "center",
     centerMode: true,
     infinite: true,
-    slidesToShow: 4,
+    slidesToShow: window.innerWidth > 1100 ? 4 : 1,
     speed: 500,
     arrows: true,
     dots: false,

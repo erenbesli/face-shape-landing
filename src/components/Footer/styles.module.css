@@ -87,3 +87,46 @@
   line-height: 15px;
   color: #00227f;
 }
+@media screen and (max-width: 1100px) {
+  .footer {
+    padding: 10% 0;
+  }
+  .footer > .social_icons {
+    gap: 16px;
+    margin-bottom: 5%;
+  }
+  .footer > .social_icons > img {
+    width: 8vw;
+  }
+  .footer > .call_section {
+    margin-bottom: 10%;
+  }
+  .footer > .call_section > h6 {
+    font-size: 4vw;
+    line-height: 150%;
+    margin-bottom: 2%;
+  }
+  .footer > .call_section > a {
+    font-size: 3.5vw;
+    line-height: 100%;
+    margin-bottom: 5%;
+  }
+  .footer > .call_section > div {
+    gap: 8px;
+    margin-bottom: 5%;
+  }
+  .footer > .call_section > div > img {
+    width: 40%;
+    height: auto;
+  }
+  .footer > .call_section > button {
+    padding: 8px 24px;
+    font-size: 2vw;
+    line-height: 1;
+    width: auto;
+    margin-bottom: 5%;
+  }
+  .footer > .privacy_policy {
+    font-size: 3vw;
+  }
+}

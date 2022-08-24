@@ -32,3 +32,33 @@
   color: #000920;
   text-align: left;
 }
+
+@media screen and (max-width: 1100px) {
+  .scan {
+    gap: 10%;
+    margin: 0 20px;
+    margin-bottom: 20%;
+    flex-direction: column-reverse;
+  }
+  .scan > img {
+    max-width: 100%;
+  }
+  .scan > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+  }
+  .scan > div > h6 {
+    font-size: 6vw;
+    line-height: 100%;
+    color: #00227f;
+    margin-bottom: 5%;
+  }
+  .scan > div > p {
+    font-size: 3.5vw;
+    line-height: 150%;
+    text-align: center;
+  }
+}

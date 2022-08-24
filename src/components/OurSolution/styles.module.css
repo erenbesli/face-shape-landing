@@ -34,3 +34,30 @@
   line-height: 36px;
   color: #000920;
 }
+
+@media screen and (max-width: 1100px) {
+  .solution {
+    margin-bottom: 20%;
+  }
+  .solution > h6 {
+    width: 100%;
+    text-align: center;
+    font-size: 6vw;
+    line-height: 100%;
+    margin-bottom: 10px;
+  }
+  .solution > img {
+    width: 100%;
+    margin-bottom: 10%;
+  }
+  .solution > div {
+    margin: 0 20px;
+    flex-direction: column;
+    gap: 24px;
+  }
+  .solution > div > p {
+    max-width: 100%;
+    font-size: 3.5vw;
+    line-height: 150%;
+  }
+}
